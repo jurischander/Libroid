@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/transferred_book_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/btn_check_off" />
+
+    <ImageView
+        android:id="@+id/book_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/transferred_book_icon"
+        android:layout_margin="5dp"
+        android:src="@drawable/add_book" />
+    
+    <TextView
+        android:id="@+id/textBookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/book_icon"
+        android:text="Book Name"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textBookAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/textBookName"
+        android:text="Book Author"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/annotationText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_icon"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textStyle="italic" />
+
+</RelativeLayout>

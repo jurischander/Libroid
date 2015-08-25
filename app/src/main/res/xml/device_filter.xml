@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device 
+        vendor-id="1165" 
+        product-id="4918" /> <!-- USB Stick -->
+    <usb-device 
+        vendor-id="1949" 
+        product-id="0002" /> <!-- Amazon Kindle -->
+    <usb-device 
+        vendor-id="1949" 
+        product-id="0004" /> <!-- Amazon Kindle 3/4/Paperwhite -->
+    <usb-device 
+        vendor-id="1949" 
+        product-id="0006" /> <!-- Kindle Fire -->
+    <usb-device 
+        vendor-id="1949" 
+        product-id="0008" /> <!-- Amazon Kindle Fire HD 8.9" -->
+</resources>

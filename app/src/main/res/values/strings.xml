@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Libroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_a_new_book">Add a new book</string>
+    <string name="edit_meta_data">Edit Meta Data</string>
+    <string name="convert_book">Convert Book</string>
+    <string name="connect_to_server">Connect to Server</string>
+    <string name="edit_settings">Edit Settings</string>
+    <string name="title_activity_enter_server_url">EnterServerUrlActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_enter_server_url_dialog">Web source</string>
+    <string name="open">Open</string>
+    <string name="url_hint">Enter URL to open</string>
+    <string name="title_activity_file_browser">Select a File</string>
+    <string name="select_database">Select a Database</string>
+    <string name="create_database">Create a new Database</string>
+    <string name="no_active_database">No Database selected</string>
+    <string name="sendToDevice">Send to device</string>
+    <string name="editMetaData">Edit meta data</string>
+    <string name="removeFromLibrary">Remove this book from the library</string>
+    <string name="deviceStr">Device</string>
+    
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+	<ImageButton
+	    android:id="@+id/select_database_button"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    android:layout_margin="10dp"
+	    android:adjustViewBounds="true"
+	    android:contentDescription="@string/select_database"
+	    android:onClick="onBrowseFileSystemClicked"
+	    android:scaleType="centerInside"
+	    android:src="@drawable/open_file_icon"
+	    android:text="@string/select_database" />
+
+	<ImageButton
+	    android:id="@+id/create_a_new_database_button"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    android:layout_margin="10dp"
+	    android:adjustViewBounds="true"
+	    android:contentDescription="@string/create_database"
+	    android:onClick="onCreateNewDatabaseClicked"
+	    android:scaleType="centerInside"
+	    android:src="@drawable/db_add_256"
+	    android:text="@string/create_database" />
+	
+</LinearLayout>

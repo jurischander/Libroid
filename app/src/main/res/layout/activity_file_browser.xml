@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileBrowserActivity" >
+
+    <TextView
+        android:id="@+id/fileBrowserTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:text="@string/title_activity_file_browser"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pathText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fileBrowserTitleView"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none" >
+
+        <requestFocus />
+    </EditText>
+    
+    <ListView
+        android:id="@+id/listFilesView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pathText"
+        android:layout_margin="10dp" >
+
+    </ListView>
+
+
+</RelativeLayout>

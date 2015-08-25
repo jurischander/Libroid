@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryBrowser" >
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageButton
+            android:id="@+id/add_new_book_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/add_a_new_book"
+            android:onClick="browseFileSystem"
+            android:scaleType="centerInside"
+            android:src="@drawable/add_book"
+            android:text="@string/add_a_new_book" />
+
+        <ImageButton
+            android:id="@+id/connect_to_server_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:contentDescription="@string/connect_to_server"
+            android:onClick="connectToServerClicked"
+            android:scaleType="centerInside"
+            android:src="@drawable/connect_share"
+            android:text="@string/connect_to_server" />
+
+        <ImageButton
+            android:id="@+id/edit_meta_data_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/edit_meta_data"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit_input"
+            android:text="@string/edit_meta_data" />
+        <ImageButton
+            android:id="@+id/convert_book_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/convert_book"
+            android:scaleType="centerInside"
+            android:src="@drawable/convert"
+            android:text="@string/convert_book" />
+        <ImageButton
+            android:id="@+id/edit_settings_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/edit_settings"
+            android:scaleType="centerInside"
+            android:src="@drawable/config"
+            android:text="@string/edit_settings" />
+        </LinearLayout>
+
+    	<ListView
+    	    android:id="@+id/booksListViewOld"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:layout_below="@id/button_bar" >
+
+    	</ListView>
+</RelativeLayout>
